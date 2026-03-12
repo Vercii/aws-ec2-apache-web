@@ -8,7 +8,18 @@ Each command has an explanation about **what it does** and **why it’s importan
 ```bash
 ssh -i ~/.ssh/cloud-portfolio-key.pem ec2-user@<PUBLIC_IP>
 ```
-
 ## 2. Update the server packages
 ```bash
 sudo yum update -y
+```
+## 3. Install software that I need (Apache, PHP)
+```bash
+sudo yum install httpd php -y
+```
+## 4. Start and enable services
+```bash
+sudo systemctl start httpd
+sudo systemctl enable httpd
+```
+## 5. Configure Security Groups
+Make sure that HTTP(80) and/or HTTPS(443) is allowed.
