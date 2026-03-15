@@ -19,7 +19,6 @@ It includes:
 - `notes/commands.md` – Step-by-step command-line notes and explanations  
 - `notes/console.md` – Step-by-step AWS Management Console notes  
 
-## How to View
-- You may visit the website on the link posted in the release package.
-
+## Screenhot
+![Screenshot](screenshot.png)
 
